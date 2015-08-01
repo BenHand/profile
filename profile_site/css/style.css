@@ -29,22 +29,6 @@ p {
     width: 100%;
   }
 
-@media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }
-  #index-banner .section {
-    top: 10%;
-  }
-}
-
-@media only screen and (max-width : 600px) {
-  #index-banner .section {
-    top: 0;
-  }
-}
-
 .icon-block {
   padding: 0 15px;
 }
@@ -54,4 +38,32 @@ p {
 
 footer.page-footer {
   margin: 0;
+}
+.bg-text{
+  background-color: RGBA(0, 0, 0, 0.5);
+}
+.pad-left{
+  padding-left: 20px;
+}
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+@media (max-width: 960px) {
+  .header-name{
+    margin-top: 240px;
+  }
+}
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+  .header-name{
+    margin-top: 280px;
+  }
 }
